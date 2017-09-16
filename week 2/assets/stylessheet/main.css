@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body{
+    background-color: #f3e5d9;
+    color:black;
+/*    na vragen font */
+    font: 1em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a:link{
+    text-decoration:none; 
+}
+header{
+    background: #fff;
+    box-shadow: 0 .5em .5em #888;
+}
+header ul{
+    list-style: none;
+    text-decoration: none;
+}
+section:first-of-type{
+    background: url(/assets/images/headerimage.jpg);
+    background-size: cover;
+    display: block;
+    
+}
+section input:first-child{
+    background-color: rgba(255,255,255,.9);
+    opacity: 0.9;
+    border: none;
+    padding: 1em;
+    margin-top: 1em;
+    font-size: 1em;
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+    width: 17em;    
+}
+section input[type="submit"]{
+    background-color: #22d470;
+    opacity: 0.9;
+    border: none;
+    padding: 1em;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;  
+    border-top-right-radius: .5em;
+    border-bottom-right-radius: .5em;
+    width: 3em;
+}
+aside{
+    background-color: rgba(255,255,255,.9); 
+    width: 20em;
+    border-radius: 0.75em;
+    padding: 1em;
+    
+}
+aside h2{
+    background-color: #fff;
+    padding: inherit;
+    margin-top: -1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    color:#22d470;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+    font-size: 1em;
+}
+aside h3{
+    color: #29129D;
+}
+aside a:link{
+   color: #000;
+}
+aside a[href="resultaat.html"]{
+    background-color: #f03465;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0.75em;
+/*    hoe zorg ik er voor dat de zoek knop onder de opties komt?*/
+}
+article:first-of-type{
+     background-color: rgba(255,255,255,.9); 
+    width: 20em;
+    border-radius: 0.75em;
+    padding: 1em;
+}
